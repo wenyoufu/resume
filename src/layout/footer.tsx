@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <div>
           <span className="">Made with ❤️</span>
           <span className="author">
-            by
+            for
             <span
               style={{ marginLeft: '4px', cursor: 'pointer' }}
               onClick={() => {

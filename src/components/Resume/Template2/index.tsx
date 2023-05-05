@@ -10,6 +10,7 @@ import {
   EnvironmentFilled,
   HeartFilled,
   CrownFilled,
+  TrophyFilled,
 } from '@ant-design/icons';
 import cx from 'classnames';
 import _ from 'lodash-es';
@@ -271,7 +272,7 @@ export const Template2: React.FC<Props> = props => {
             })}
           </Wrapper>
         ) : null}
-        {/* {awardList?.length ? (
+        {awardList?.length ? (
           <Wrapper
             // title="更多信息"
             title={titleNameMap.awardList}
@@ -294,7 +295,7 @@ export const Template2: React.FC<Props> = props => {
               );
             })}
           </Wrapper>
-        ) : null} */}
+        ) : null}
       </div>
       <div className="main-info">
         {workExpList?.length ? (
