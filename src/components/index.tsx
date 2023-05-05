@@ -26,7 +26,7 @@ const codec = jsonUrl('lzma');
 export const Page: React.FC = () => {
   const lang = getLanguage();
   const intl = useIntl();
-  const user = getSearchObj().user || 'visiky';
+  const user = getSearchObj().user || 'wenyoufu';
 
   const [, mode, changeMode] = useModeSwitcher({});
 
@@ -241,7 +241,7 @@ export const Page: React.FC = () => {
                 {intl.formatMessage({
                   id: `编辑之后，请及时存储个人信息到个人仓库中。`,
                 })}
-                <span>
+                {/* <span>
                   <span style={{ marginRight: '4px' }}>
                     👉 {!query.user && intl.formatMessage({ id: '参考：' })}
                   </span>
@@ -262,7 +262,7 @@ export const Page: React.FC = () => {
                       query.user || 'visiky'
                     }/blob/${query.branch || 'master'}/resume.json）`}
                   </span>
-                </span>
+                </span> */}
               </span>
             }
             banner
