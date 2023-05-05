@@ -186,14 +186,14 @@ export const Template3: React.FC<Props> = props => {
                       <b>{education.school}</b>
                       <span style={{ marginLeft: '8px' }}>
                         {education.major && <span>{education.major}</span>}
-                        {education.academic_degree && (
+                        {/* {education.academic_degree && (
                           <span
                             className="sub-info"
                             style={{ marginLeft: '4px' }}
                           >
                             ({education.academic_degree})
                           </span>
-                        )}
+                        )} */}
                       </span>
                     </span>
                     <span className="sub-info" style={{ float: 'right' }}>

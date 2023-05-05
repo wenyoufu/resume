@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               style={{ marginLeft: '4px', cursor: 'pointer' }}
               onClick={() => {
                 if (typeof window !== 'undefined') {
-                  window.open(`https://github.com/${user}`);
+                  window.open(`https://github.com/wenyoufu`);
                 }
               }}
             >
