@@ -91,6 +91,12 @@ export const Template1: React.FC<Props> = props => {
         <div className="profile">
           {profile?.name && <div className="name">{profile.name}</div>}
           <div className="profile-list">
+            {profile?.birth && (
+              <div className="birth">
+                <ScheduleFilled style={{ color: theme.color, opacity: 0.85 }} />
+                {profile.birth}
+              </div>
+            )}
             {profile?.mobile && (
               <div className="email">
                 <MobileFilled style={{ color: theme.color, opacity: 0.85 }} />

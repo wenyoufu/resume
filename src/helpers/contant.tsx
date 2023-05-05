@@ -115,6 +115,11 @@ export const CONTENT_OF_MODULE = ({ intl }) => {
       },
       {
         type: 'input',
+        attributeId: 'birth',
+        displayName: intl.formatMessage({ id: '出生日期' }),
+      },
+      {
+        type: 'input',
         attributeId: 'mobile',
         displayName: intl.formatMessage({ id: '手机号码' }),
         formItemProps: {

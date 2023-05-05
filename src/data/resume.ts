@@ -8,6 +8,7 @@ export const RESUME_INFO: ResumeConfig = {
   },
   profile: {
     name: '姓名',
+    birth: '出生日期',
     email: '736****86@qq.com',
     mobile: '156********',
     github: 'https://github.com/visiky',
@@ -142,6 +143,7 @@ export const RESUME_INFO: ResumeConfig = {
     'en-US': {
       profile: {
         name: 'Xiaojuan Liao',
+        birth: '出生日期',
         email: '736****86@qq.com',
         mobile: '156********',
         github: 'https://github.com/visiky',

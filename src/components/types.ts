@@ -11,6 +11,7 @@ export type ResumeConfig = {
   /** 个人信息 */
   profile?: {
     name: string;
+    birth?: string;
     mobile?: string;
     email?: string;
     github?: string;
