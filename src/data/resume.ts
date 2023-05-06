@@ -3,236 +3,140 @@ import type { ResumeConfig } from '@/components/types';
 /** 初始化常量 */
 export const RESUME_INFO: ResumeConfig = {
   avatar: {
-    src: undefined,
     hidden: false,
+    src:
+      'https://raw.githubusercontent.com/wenyoufu/testaaaaaa/master/fordwen1.png',
+    // "src":"https://gitee.com/fordwen/resume/raw/4539f824724470b1005b9220df03628d8d8b73f4/fordwen1.png",
+    shape: 'circle',
   },
   profile: {
-    name: '姓名',
-    birth: '出生日期',
-    email: '736****86@qq.com',
-    mobile: '156********',
-    github: 'https://github.com/wenyoufu',
-    zhihu: 'https://zhihu.com/people/wenyoufu',
-    workExpYear: '',
-    workPlace: '北京',
-    positionTitle: '软件设计研发工程师',
+    name: '温有福',
+    email: '1334788676@qq.com',
+    mobile: '18811521695',
+    github: '',
+    zhihu: '',
+    workExpYear: '6年',
+    workPlace: '',
+    positionTitle: '',
+    birth: '1991.01',
   },
   educationList: [
     {
-      edu_time: ['2014.09.01', '2018.06.30'],
+      edu_time: ['2014.09', '2017.04'],
       school: '北京交通大学',
-      major: '计算机科学与技术',
+      major: '计算机科学与技术（硕士）',
+    },
+    {
+      edu_time: ['2010.09', '2014.07'],
+      school: '河北建筑工程学院',
+      major: '计算机科学与技术（本科）',
       academic_degree: '本科',
     },
   ],
   awardList: [
     {
+      award_time: '2022',
+      award_info: '软著：coraldb存算分离数据库',
+    },
+    {
+      award_time: '2021',
+      award_info: 'coraldb存算分离创新项目奖',
+    },
+    {
+      award_time: '2019',
+      award_info: '海思破飞机奖',
+    },
+    {
+      award_info: '云通讯产品线总裁奖',
+      award_time: '2018',
+    },
+    {
+      award_time: '2017',
+      award_info: '研究生优秀毕业论文',
+    },
+    {
+      award_info: '省数学竞赛三等奖',
+      award_time: '2013',
+    },
+    {
+      award_info: '院级三好学生',
+      award_time: '2012',
+    },
+    {
       award_info: '英语 CET6',
-      award_time: '2015',
-    },
-    {
-      award_info: '蚂蚁近卫军 卓越个人奖',
-      award_time: '2018.09',
-    },
-    {
-      award_info: '前端练习生 可视化讲师',
-      award_time: '2020.10',
-    },
-    {
-      award_info:
-        '前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”',
-      award_time: '2021.07',
+      award_time: ' 2012',
     },
   ],
   workExpList: [
     {
-      company_name: '蚂蚁集团',
-      department_name: '体验技术部',
-      work_time: ['2018.06', null],
-      work_desc: `1. 担任蚂蚁高管决策和管理协同产品 “数据作战室” 的前端负责人\r\n2. 负责蚂蚁敏捷 BI 产品 “DeepInsight” 的可视分析模块产品能力建设\n3. 数据可视化 AntV 团队核心成员，负责 G2、G2Plot 开源技术的建设`,
+      work_time: ['2021.01', ''],
+      company_name: '京东',
+      department_name: '数据库研发部',
+      work_desc: '负责数据库中间件及内核高可用低成本设计及研发工作',
     },
     {
-      company_name: '蚂蚁金服',
-      department_name: '大数据部',
-      work_time: ['2017.06', '2017.12'],
+      work_time: ['2017.05', '2020.12'],
+      company_name: '华为',
+      department_name: '海思balong解决方案软件开发部',
       work_desc:
-        '前端实习生。使用 React 参与开发多类产品：数据研发平台、数据决策平台、数据分析平台的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。',
-    },
-    {
-      company_name: '数沃信息科技有限公司',
-      department_name: '',
-      work_time: ['2017.03', '2017.05'],
-      work_desc:
-        '前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示',
+        '海思balong基带协议栈 (lte-rrc、nr-rrc) 开发及代码重构 \n\n总结：两段工作经历使得我在云原生、数据库内核、数据库中间件、微服务框架、服务高可用高性能、网络通讯协议栈等有深刻的理解和应用能力。',
     },
   ],
   skillList: [
     {
-      skill_name: 'HTML 和 CSS',
-      // '熟练掌握 html, css 等前端基础技术，不借助框架编写响应式/移动端网页',
-      skill_desc: '',
+      skill_name: '数据库内核及中间件方案',
+      skill_level: 100,
+      skill_desc:
+        '数据库内核（innodb）改造及数据库中间件（vitess）方案设计及研发经验',
+    },
+    {
+      skill_name: '设计模式',
+      skill_level: 100,
+      skill_desc: '常用的数据库高可用，高性能的架构设计经验',
+    },
+    {
+      skill_name: '云原生经验',
       skill_level: 89,
+      skill_desc: '部署及云原生经验(docker,k8s) ',
     },
     {
-      skill_name: 'TypeScript / JavaScript',
-      // skill_desc: '熟悉 TypeScript，丰富的 ts 项目经验',
-      skill_level: 90,
-    },
-    {
-      skill_name: '数据可视化',
-      skill_desc: '丰富的可视化工程实践以及开源经验',
-      skill_level: 90,
-    },
-    {
-      skill_name: 'React / 前端工程化',
-      skill_desc: '大型前端项目经验以及组件库开发经验',
-      skill_level: 80,
+      skill_name: '语言基础',
+      skill_level: 89,
+      skill_desc: '熟练c/c++,go语言编程;熟悉python脚本编程',
     },
   ],
   projectList: [
     {
-      project_name: '数据作战室',
-      project_role: '前端负责人',
-      project_time: '2019.04 - 2020.06',
+      project_name: '数据库中间件高可用建设',
+      project_role: '设计研发owner',
+      project_time: '2021.08 - 2023.03',
       project_desc:
-        '面向总裁和高管以及决策 BI 的数字化经营决策和管理协同产品。提供一站式的数据化经营决策和管理协同功能，让高管高效获取决策信息，并提升管理效率。',
+        '存算分离架构下，云原生数据库中间件不能满足：1.服务部署、初始化、启动\n2.数据库高可用要求',
       project_content:
-        '1. 项目从0到1的框架设计和开发 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率',
+        '数据库中间件高可用建设及落地（go 实现）\n1.设计并实现数据库数据损坏恢复的高可用方案；\n2.设计并实现数据库无感升级运维方案；\n3.部分设计及实现数据库弹性伸缩方案。',
     },
     {
-      project_name: 'DeepInsight',
-      project_role: '可视分析负责人',
-      project_time: '2018.07 - 2019.04 / 2020.07 - 至今',
+      project_name: '数据库内核存储低成本建设',
+      project_role: '核心设计研发',
+      project_time: '2021.01 - 2021.08',
       project_desc:
-        'DeepInsight 是蚂蚁集团自主研发的自助式 BI 数据洞察分析平台，面向企业分析人员、业务人员和开发人员，帮助蚂蚁集团实现精细化运营。',
+        '数据库内核存算分离架构[主从共用一份数据](类似阿里polarDB)，达到降本增效的目的',
       project_content:
-        'BI 平台工具核心部分是报表制作，也就是通过数据连接、可视化配置形成图表物料之后，通过拖拽方式进行页面编排，最终形成报表页面进行发布的过程。\n1. 主导开放能力建设，拉通产品、设计建设和扩展可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设(通用组件设计和开发经验丰富)、促进数据分析能力增强等可视化一体化建设',
+        '内核模块设计及研发（c/c++ 实现）\n1.设计并实现在主从存算分离架构下ddl；\n2.设计并实现数据库内核自定义协议承载链路。 (用于心跳及传输拷贝页数据)',
     },
     {
-      project_name: 'G2、G2Plot',
-      project_role: '核心开发者',
-      project_time: '2019 - 至今',
+      project_name: '4G/5G 通信协议栈RRC研发',
+      project_role: '开发工程师',
+      project_time: '2017.05-2021.12',
       project_desc:
-        'G2 是基于图形语法理论的可视化渲染引擎，G2Plot 是在 G2 基础上封装的开箱即用的统计可视化图表库',
+        '海思balong基带协议栈 , RRC层(lte-rrc、nr-rrc) 作为物理层（PHY）和NAS层的纽带，具有呈上启下的重要作用',
       project_content:
-        'AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV 系列: AntV 官网、G 渲染引擎、 G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作。',
+        '海思balong基带协议栈 (lte-rrc、nr-rrc) 开发及代码重构 (c 实现)\n1.主导项目小组各版本问题定位及部分修改 ；(接口人)\n2.依据3gpp协议，进行协议实现；\n3.负责4g快速回5g搜网开发工作；\n4.参与搜网模块代码重构。\n',
     },
   ],
-  workList: [
-    // {
-    //   work_name: '个人简历生成器',
-    //   visit_link: 'https://visiky.github.io/resume',
-    // },
-    // {
-    //   work_name: 'AntV 主题生成器',
-    //   visit_link: 'https://theme-set.antv.vision',
-    // },
-    // {
-    //   work_name: 'AntV 可视化精选',
-    //   visit_link: 'https://vis-dashboard.antv.vision',
-    // },
-  ],
+  workList: [],
   aboutme: {
-    aboutme_desc: `🌱 Focus on data visualization and analysis 😈 能力项：沟通协调能力、执行力
-    自驱型前端工程师，三年多大型复杂产品开发经验，负责蚂蚁集团 BI 产品 DeepInsight 的可视化建设，参与了从图表库到 BI 产品力的一体化建设，对商业智能领域的数据可视化建设有较为丰富的经验。
-    参与 AntV 团队开源项目 G2、G2Plot 的研发，目前是 G2Plot 的主要负责人。
-    `,
-  },
-  // 国际化
-  locales: {
-    'en-US': {
-      profile: {
-        name: 'Xiaojuan Liao',
-        birth: '出生日期',
-        email: '736****86@qq.com',
-        mobile: '156********',
-        github: 'https://github.com/visiky',
-        zhihu: 'https://zhihu.com/people/visiky',
-        workExpYear: '',
-      },
-      skillList: [
-        { skill_name: 'HTML 和 CSS', skill_desc: '', skill_level: 89 },
-        { skill_name: 'TypeScript / JavaScript', skill_level: 90 },
-        {
-          skill_name: 'Data Visualization',
-          skill_desc: '丰富的可视化工程实践以及开源经验',
-          skill_level: 90,
-        },
-        {
-          skill_name: 'React / 前端工程化',
-          skill_desc: '大型前端项目经验以及组件库开发经验',
-          skill_level: 80,
-        },
-      ],
-      avatar: { hidden: false },
-      educationList: [
-        {
-          edu_time: ['2014.09.01', '2018.06.30'],
-          school: 'SCUT',
-          major: 'Compute Science',
-          academic_degree: '本科',
-        },
-      ],
-      awardList: [
-        { award_info: '英语 CET6', award_time: '2015' },
-        { award_info: '蚂蚁近卫军 卓越个人奖', award_time: '2018.09' },
-        { award_info: '前端练习生 可视化讲师', award_time: '2020.10' },
-        {
-          award_info:
-            '前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”',
-          award_time: '2021.07',
-        },
-      ],
-      workExpList: [
-        {
-          company_name: 'Ant Group',
-          department_name: 'AFX',
-          work_time: ['2018.06', null],
-          work_desc:
-            '1. 担任蚂蚁高管决策和管理协同产品 “数据作战室” 的前端负责人\r\n2. 负责蚂蚁敏捷 BI 产品 “DeepInsight” 的可视分析模块产品能力建设\n3. 数据可视化 AntV 团队核心成员，负责 G2、G2Plot 开源技术的建设',
-        },
-        {
-          company_name: 'Ant Group',
-          department_name: '大数据部',
-          work_time: ['2017.06', '2017.12'],
-          work_desc:
-            '前端实习生。使用 React 参与开发多类产品：数据研发平台、数据决策平台、数据分析平台的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。',
-        },
-      ],
-      projectList: [
-        {
-          project_name: '数据作战室',
-          project_role: '前端负责人',
-          project_time: '2019.04 - 2020.06',
-          project_desc:
-            '面向总裁和高管以及决策 BI 的数字化经营决策和管理协同产品。提供一站式的数据化经营决策和管理协同功能，让高管高效获取决策信息，并提升管理效率。',
-          project_content:
-            '1. 项目从0到1的框架设计和开发 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率',
-        },
-        {
-          project_name: 'DeepInsight',
-          project_role: '可视分析负责人',
-          project_time: '2018.07 - 2019.04 / 2020.07 - 至今',
-          project_desc:
-            'DeepInsight 是蚂蚁集团自主研发的自助式 BI 数据洞察分析平台，面向企业分析人员、业务人员和开发人员，帮助蚂蚁集团实现精细化运营。',
-          project_content:
-            'BI 平台工具核心部分是报表制作，也就是通过数据连接、可视化配置形成图表物料之后，通过拖拽方式进行页面编排，最终形成报表页面进行发布的过程。\n1. 主导开放能力建设，拉通产品、设计建设和扩展可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设(通用组件设计和开发经验丰富)、促进数据分析能力增强等可视化一体化建设',
-        },
-        {
-          project_name: 'G2、G2Plot',
-          project_role: '核心开发者',
-          project_time: '2019 - 至今',
-          project_desc:
-            'G2 是基于图形语法理论的可视化渲染引擎，G2Plot 是在 G2 基础上封装的开箱即用的统计可视化图表库',
-          project_content:
-            'AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV 系列: AntV 官网、G 渲染引擎、 G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作。',
-        },
-      ],
-      workList: [],
-      aboutme: {
-        aboutme_desc:
-          '🌱 Focus on data visualization and analysis 😈 能力项：沟通协调能力、执行力\n    自驱型前端工程师，三年多大型复杂产品开发经验，负责蚂蚁集团 BI 产品 DeepInsight 的可视化建设，参与了从图表库到 BI 产品力的一体化建设，对商业智能领域的数据可视化建设有较为丰富的经验。\n    参与 AntV 团队开源项目 G2、G2Plot 的研发，目前是 G2Plot 的主要负责人。\n    ',
-      },
-    },
+    aboutme_desc:
+      '🌱 聚焦于数据库内核低成本及数据库中间件高可用的设计和研发\n😈 能力项：\n    1.丰富的容器化云原生及云化数据库经验(docker,k8s,vitess等)\n    2.扎实的计算机基础（数据结构、算法、网络、常用设计模式等）\n    3.较强的上手学习、沟通协调能力\n',
   },
 };
