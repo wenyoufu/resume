@@ -86,7 +86,7 @@
 
   // basic-info 内容样式
   .basic-info .avatar {
-    margin: 12px auto;
+    margin: 0 auto;
     display: block;
     width: 84px;
     height: 84px;
@@ -99,7 +99,19 @@
   }
 
   .basic-info .profile {
-    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+    margin-bottom: 12px;
+
+    > div:first-of-type {
+      flex: 1;
+    }
+    > div:nth-of-type(2) {
+      width: 150px;
+    }
 
     .profile-list {
       display: flex;

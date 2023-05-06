@@ -26,12 +26,12 @@ const TEMPLATES = [
     description: '简易模板(适用于多页)',
     disabled: false,
   },
-  // {
-  //   url: 'https://gw.alipayobjects.com/zos/antfincdn/RGxVcJ2O3q/moban2.svg',
-  //   id: 'template4',
-  //   description: '简易模板2(适用于多页)',
-  //   disabled: true,
-  // },
+  {
+    url: 'https://gw.alipayobjects.com/zos/antfincdn/Kn2jUKcBme/moban2.svg',
+    id: 'template4',
+    description: '简易模板2(适用于多页)',
+    disabled: false,
+  },
   // {
   //   url: 'https://gw.alipayobjects.com/zos/antfincdn/RGxVcJ2O3q/moban2.svg',
   //   id: 'template5',
