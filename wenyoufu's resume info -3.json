@@ -103,11 +103,23 @@
             ],
             "company_name": "华为",
             "department_name": "海思balong解决方案软件开发部",
-            "work_desc": "海思balong基带协议栈 (lte-rrc、nr-rrc) 开发及代码重构 \n\n\n总结：两段工作经历使得我在云原生、数据库内核、数据库中间件、微服务框架、服务高可用高性能、网络通讯协议栈等有深刻的理解和应用能力。",
+            "work_desc": "海思balong基带协议栈 (lte-rrc、nr-rrc) 开发及代码重构 \n\n总结：两段工作经历使得我在云原生、数据库内核、数据库中间件、微服务框架、服务高可用高性能、网络通讯协议栈等有深刻的理解和应用能力。",
             "dataIndex": 1
         }
     ],
     "skillList": [
+        {
+            "skill_name": "数据库内核及中间件方案",
+            "skill_level": 100,
+            "skill_desc": "数据库内核（innodb）改造及数据库中间件（vitess）方案设计及研发经验",
+            "dataIndex": 1
+        },
+        {
+            "skill_name": "设计模式",
+            "skill_level": 100,
+            "skill_desc": "常用的数据库高可用，高性能的架构设计经验",
+            "dataIndex": 1
+        },
         {
             "skill_name": "云原生经验",
             "skill_level": 89,
@@ -115,21 +127,9 @@
             "dataIndex": 0
         },
         {
-            "skill_name": "数据库内核及中间件方案",
-            "skill_level": 89,
-            "skill_desc": "数据库内核（innodb）改造及数据库中间件（vitess）方案设计及研发经验",
-            "dataIndex": 1
-        },
-        {
             "skill_name": "语言基础",
             "skill_level": 89,
             "skill_desc": "熟练c/c++,go语言编程;熟悉python脚本编程"
-        },
-        {
-            "skill_name": "设计模式",
-            "skill_level": 89,
-            "skill_desc": "熟悉常用的数据库高可用，高性能的架构设计经验",
-            "dataIndex": 3
         }
     ],
     "projectList": [
@@ -145,22 +145,22 @@
             "project_name": "数据库内核存储低成本建设",
             "project_role": "核心设计研发",
             "project_time": "2021.01 - 2021.08",
-            "project_desc": "数据库内核存算分离架构[主备共用一份数据](类似阿里polarDB)，达到降本增效的目的",
-            "project_content": "内核模块设计及研发（c/c++ 实现）\n1.ddl在主从存算分离架构下的流程模块设计；\n2.设计并实现数据库内核自定义协议承载链路。 (用于心跳及传输拷贝页数据)",
-            "dataIndex": 0
+            "project_desc": "数据库内核存算分离架构[主从共用一份数据](类似阿里polarDB)，达到降本增效的目的",
+            "project_content": "内核模块设计及研发（c/c++ 实现）\n1.设计并实现在主从存算分离架构下ddl；\n2.设计并实现数据库内核自定义协议承载链路。 (用于心跳及传输拷贝页数据)",
+            "dataIndex": 1
         },
         {
             "project_name": "4G/5G 通信协议栈RRC研发",
             "project_role": "开发工程师",
             "project_time": "2017.05-2021.12",
             "project_desc": "海思balong基带协议栈 , RRC层(lte-rrc、nr-rrc) 作为物理层（PHY）和NAS层的纽带，具有呈上启下的重要作用",
-            "project_content": "海思balong基带协议栈 (lte-rrc、nr-rrc) 开发及代码重构 (c 实现)\n1.依据3gpp协议，进行协议实现；\n2.负责4g快速回5g搜网开发工作；\n3.参与搜网模块代码重构；\n4.主导项目小组各版本问题定位及部分修改 。(接口人)",
+            "project_content": "海思balong基带协议栈 (lte-rrc、nr-rrc) 开发及代码重构 (c 实现)\n1.主导项目小组各版本问题定位及部分修改 ；(接口人)\n2.依据3gpp协议，进行协议实现；\n3.负责4g快速回5g搜网开发工作；\n4.参与搜网模块代码重构。\n",
             "dataIndex": 2
         }
     ],
     "workList": [],
     "aboutme": {
-        "aboutme_desc": "🌱 聚焦于数据库内核低成本及数据库中间件高可用的设计和研发\n😈 能力项：\n    1.快速的上手学习、沟通协调能力\n    2.丰富的容器化云原生及云化数据库经验(docker,k8s,vitess等)\n    3.扎实的计算机基础（数据结构、算法、网络、常用设计模式等）\n"
+        "aboutme_desc": "🌱 聚焦于数据库内核低成本及数据库中间件高可用的设计和研发\n😈 能力项：\n    1.丰富的容器化云原生及云化数据库经验(docker,k8s,vitess等)\n    2.扎实的计算机基础（数据结构、算法、网络、常用设计模式等）\n    3.较强的上手学习、沟通协调能力\n"
     },
     "theme": {
         "color": "#2f5785",
