@@ -50,6 +50,7 @@
   },
   "scripts": {
     "start": "cross-env NODE_ENV=production gatsby build && gatsby serve -H 127.0.0.1",
+    "restart": "gatsby serve -H 127.0.0.1",
     "build": "gatsby build --prefix-paths",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "clean": "gatsby clean",
