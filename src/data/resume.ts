@@ -5,8 +5,9 @@ export const RESUME_INFO: ResumeConfig = {
   avatar: {
     hidden: false,
     src:
-      'https://raw.githubusercontent.com/wenyoufu/testaaaaaa/master/fordwen1.png',
-    // "src":"https://gitee.com/fordwen/resume/raw/4539f824724470b1005b9220df03628d8d8b73f4/fordwen1.png",
+      // 'https://raw.githubusercontent.com/wenyoufu/testaaaaaa/master/fordwen1.png',
+      // "src":"https://gitee.com/fordwen/resume/raw/4539f824724470b1005b9220df03628d8d8b73f4/fordwen1.png",
+      'images/fordwen1.png',
     shape: 'circle',
   },
   profile: {
