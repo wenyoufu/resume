@@ -128,7 +128,7 @@ export const RESUME_INFO: ResumeConfig = {
     {
       project_name: '4G/5G 通信协议栈RRC研发',
       project_role: '开发工程师',
-      project_time: '2017.05-2021.12',
+      project_time: '2017.05-2020.12',
       project_desc:
         '海思balong基带协议栈 , RRC层(lte-rrc、nr-rrc) 作为物理层（PHY）和NAS层的纽带，具有呈上启下的重要作用',
       project_content:

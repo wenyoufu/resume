@@ -152,7 +152,7 @@
         {
             "project_name": "4G/5G 通信协议栈RRC研发",
             "project_role": "开发工程师",
-            "project_time": "2017.05-2021.12",
+            "project_time": "2017.05-2020.12",
             "project_desc": "海思balong基带协议栈 , RRC层(lte-rrc、nr-rrc) 作为物理层（PHY）和NAS层的纽带，具有呈上启下的重要作用",
             "project_content": "海思balong基带协议栈 (lte-rrc、nr-rrc) 开发及代码重构 (c 实现)\n1.主导项目小组各版本问题定位及部分修改 ；(接口人)\n2.依据3gpp协议，进行协议实现；\n3.负责4g快速回5g搜网开发工作；\n4.参与搜网模块代码重构。\n",
             "dataIndex": 2
